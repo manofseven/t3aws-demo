@@ -19,3 +19,8 @@
 				top: 0px; width: 100%;
 				padding: 15px;
 			}
+			
+			#info{
+				font-size: 22px;
+				font-weight: bold;
+			}

@@ -110,7 +110,7 @@ var App = function(makehuman, dat, _, THREE, Detector, Nanobar, Stats) {
             return self.human.loadModel()
         }).then(function() {
             self.nanobar.go(50);
-            console.debug("Human load Complete. ", self.human.skins.length, " skins, " + self.human.mesh.geometry.morphTargets.length + " morphtargets, " + self.human.bodyPartOpacity().length + ' bodyparts');
+            console.debug("Avatar yüklemesi tamamlandı. ", self.human.skins.length, " deriler, " + self.human.mesh.geometry.morphTargets.length + " morfhedefler, " + self.human.bodyPartOpacity().length + ' bodyparts');
 
             self.setHumanDefaults()
 
